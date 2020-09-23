@@ -155,10 +155,9 @@ h2{
   from{opacity: 0.4}
   to{opacity: 1}
 }
-@media screen and (max-width: 720px max-height: 500px){
+@media screen and (max-width: 720px){
   .header{
-    width: 200px;
-    height: 45px;
+    width: 350px;
     position: absolute;
     top: 50px;
     left: 100px;
@@ -166,11 +165,31 @@ h2{
   .contact-form{
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 350px;
   }
   .logo-about{
     position: absolute;
-    top: 40px;
-    left: 100px;
+    top: 20px;
+    left: 300px;
+    font-size: 12px;
+  }
+  .logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  }
+  .slider{
+    position: absolute;
+    left: 10%;
+  }
+  .ch{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+  }
+  .op{
+    position: absolute;
+    top: 120%;
+    left: 10%;
   }
 }
