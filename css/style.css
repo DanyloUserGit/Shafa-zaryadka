@@ -89,13 +89,13 @@ h2{
 }
 .ch{
   position: absolute;
-  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
   top: 20%;
   left: 70%;
 }
 .op{
   position: absolute;
-  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
   top: 80%;
   left: 10%;
 }
