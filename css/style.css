@@ -89,15 +89,44 @@ h2{
 }
 .ch{
   position: absolute;
-  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
   top: 20%;
   left: 70%;
 }
 .op{
   position: absolute;
-  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
   top: 80%;
   left: 10%;
+}
+.footer{
+  background: linear-gradient(90deg, #6e6e6e,#c9c9c9);
+  position: absolute;
+  top: 150%;
+  left: 0%;
+  width: 100%;
+  height: 400px;
+}
+.footer-contacts{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 15px;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+.footer-contacts-n-1{
+  position: absolute;
+  top: 33%;
+  left: 10%;
+  font-size: 11px;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+.footer-contacts-n-2{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-size: 11px;
+  font-family: 'Baloo Tammudu 2', cursive;
 }
 .slider{
   max-width: 100px;
@@ -155,22 +184,46 @@ h2{
   from{opacity: 0.4}
   to{opacity: 1}
 }
-@media screen and (max-width: 720px max-height: 500px){
+@media screen and (max-width: 600px){
   .header{
-    width: 200px;
-    height: 45px;
+    width: 250px;
     position: absolute;
     top: 50px;
-    left: 100px;
+    left: 50px;
+  }
+  .cina{
+    position: absolute;
+    top: 85%;
+    left: 10%;
   }
   .contact-form{
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 250px;
   }
   .logo-about{
     position: absolute;
-    top: 40px;
-    left: 100px;
+    top: 17px;
+    left: 290px;
+    font-size: 10.5px;
+  }
+  .logo{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+  }
+  .slider{
+    position: absolute;
+    left: 10%;
+  }
+  .ch{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+  }
+  .op{
+    position: absolute;
+    top: 130%;
+    left: 10%;
   }
 }
